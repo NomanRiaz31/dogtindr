@@ -1,0 +1,53 @@
+*
+{
+	padding: 0%;
+	margin: 0%;
+}
+.tin
+{
+font-family: 'Righteous', cursive;
+
+}
+.btn-dark:hover
+{
+	color: black;
+	background-color: white;
+}
+.iphone
+{
+	position: relative;
+	z-index: 1;
+	top: -100px;
+	background-color: white;
+}
+
+.iphoneo
+{
+	position: relative;
+	z-index: 0;
+	top: 40px;
+}
+/*@media only screen and (max-width: 600px)
+ {
+ .iphone1
+  {
+   size: 0px;
+  }
+}*/
+
+@media only screen and (min-width: 700px) {
+ .iphoneo
+ {
+   transform: rotate(20deg);
+   size: 100px;
+   align-items: center;
+
+  }
+}
+@media only screen and (min-width: 700px) {
+ .iphone
+ {
+  background-color: none;
+
+  }
+}
